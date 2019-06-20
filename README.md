@@ -1,6 +1,6 @@
 # Segmentation
 
-Pixel-wise segmentation on the VOC2012 dataset using pytorch.
+Pixel-wise segmentation on the VOC2012 dataset using pytorch, which refers to [piwise](https://github.com/bodokaiser/piwise).
 
 Three networks has been implemented:
 
@@ -12,7 +12,7 @@ Three networks has been implemented:
 
 ### Download
 
-Download [image archive][dataset_download] and extract and do:
+Download [image archive](http://host.robots.ox.ac.uk/pascal/VOC/) and extract and do:
 
 ```
 mv VOCdevkit/VOC2012/JPEGImages data/images
