@@ -111,3 +111,5 @@ If the model is trained by two gpus,  `--double-cudas` is necessary:
 ```
 python main.py --state=log/fcn-vgg19-deconv.pth --cuda --double-cudas --model=fcn-vgg19-deconv test test.jpg label.png --resized_image=resized_test.jpg
 ```
+
+![result](https://github.com/MondayYuan/FCN/blob/master/fig/total.png)
